@@ -12,7 +12,7 @@ def saludo2():
 def saludo3():
     return "Hola, ¿Qué tal?"
 
-def saludo3():
+def saludo4():
     return "Hola, ¿Cómo estás?"
 
 
