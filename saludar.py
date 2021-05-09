@@ -12,8 +12,11 @@ def saludo2():
 def saludo3():
     return "Hola, ¿Qué tal?"
 
+def saludo3():
+    return "Hola, ¿Cómo estás?"
 
-saludo = random.randint(0, 2)
+
+saludo = random.randint(0, 3)
 
 if saludo == 0:
     print(saludo1())
@@ -21,5 +24,7 @@ elif saludo == 1:
     print(saludo2())
 elif saludo == 2:
     print(saludo3())
+elif saludo == 3:
+    print(saludo4())
 else:
     print("Adios")
